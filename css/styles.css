@@ -228,6 +228,9 @@ p {
 .pic {
   margin-right: 30px;
 }
+img {
+  display: block;
+}
 
 .img:last-child {
   margin-right: 0;
