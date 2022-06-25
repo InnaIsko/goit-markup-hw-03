@@ -36,6 +36,39 @@ p {
   margin-bottom: 0;
 }
 /*head*/
+.icon-adress {
+  fill: var(--title-text-color);
+}
+
+.icon-contacts {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.icon-contacts:hover,
+.icon-contacts:focus {
+  fill: var(--accent-color);
+}
+
+.icon-contacts:hover .icon-adress,
+.icon-contacts:focus .icon-adress {
+  fill: var(--accent-color);
+}
+
+.icon-tel {
+  width: 16px;
+  height: 12px;
+}
+.icon-mail {
+  width: 10px;
+  height: 12px;
+}
+
+.icon-adress {
+  margin-right: 10px;
+}
 
 .logo {
   color: var(--footer-text-primary);
@@ -210,6 +243,11 @@ p {
   background-color: #f5f4fa;
   max-height: 120px;
   margin-bottom: 30px;
+}
+.features .item:hover,
+.features .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .icon {
